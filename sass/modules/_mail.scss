@@ -1,0 +1,40 @@
+#mail-form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 480px;
+    label {
+        display: block;
+        margin: 10px 15px;
+        font-family: $second-font;
+        font-weight: bold;
+        color: #1B2631;
+    }
+    input[type=text], input[type=email], textarea {
+        padding: 10px;
+        width: 250px;
+        border: 2px solid #a55e3f;
+        border-radius: 5px;
+    
+    }
+}
+.submit {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #85C1E9;
+    font-family: $second-font;
+    font-weight: bold;
+    &:hover {
+        background-color: #AEB6BF;
+    }
+}
+#gender {
+    @extend textarea;
+    
+}
+.g-recaptcha {
+    margin-top: 20px;
+}
+
