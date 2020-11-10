@@ -1,0 +1,21 @@
+body {
+    color: $main-color;
+    font-size: $main-font-size;
+    font-family: $main-font-family;
+    width: 100%;
+    background-color: $main-bg-color;
+}
+h2 {
+    text-transform: uppercase;
+    color: #2C3E50 ;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+p {
+    font-family: $second-font;;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+}
